@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 10px;
+  /* overflow-x: hidden; */
+}
+
+html,
+body {
+  background: #ffffff;
+  color: #000000;
+  /* overflow-x: hidden; */
+}
+
+.wrapper {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mt10 {
+  margin-top: 1rem;
+}
+.mt20 {
+  margin-top: 2rem;
+}
+.mt30 {
+  margin-top: 3rem;
+}
+.mt50 {
+  margin-top: 5rem;
+}
+.mt80 {
+  margin-top: 8rem;
+}
+.mt100 {
+  margin-top: 10rem;
+}
+
+.mb10 {
+  margin-bottom: 1rem;
+}
+.mb15 {
+  margin-bottom: 1.5rem;
+}
+.mb20 {
+  margin-bottom: 2rem;
+}
+.mb30 {
+  margin-bottom: 3rem;
+}
+.mb40 {
+  margin-bottom: 4rem;
+}
+.mb50 {
+  margin-bottom: 5rem;
+}
+.mb80 {
+  margin-bottom: 8rem;
+}
+.mb100 {
+  margin-bottom: 10rem;
+}
+
+.pt5 {
+  padding-top: .5rem;
+}
+.pt10 {
+  padding-top: 1rem;
+}
+.pt20 {
+  padding-top: 2rem;
+}
+.pt30 {
+  padding-top: 3rem;
+}
+.pt50 {
+  padding-top: 5rem;
+}
+.pt80 {
+  padding-top: 8rem;
+}
+.pt100 {
+  padding-top: 10rem;
+}
+.pt150 {
+  padding-top: 15rem;
+}
+.pt200 {
+  padding-top: 20rem;
+}
+.pt250 {
+  padding-top: 25rem;
+}
+
+.pb5 {
+  padding-bottom: .5rem;
+}
+.pb10 {
+  padding-bottom: 1rem;
+}
+.pb20 {
+  padding-bottom: 2rem;
+}
+.pb30 {
+  padding-bottom: 3rem;
+}
+.pb50 {
+  padding-bottom: 5rem;
+}
+.pb80 {
+  padding-bottom: 8rem;
+}
+.pb100 {
+  padding-bottom: 10rem;
+}
+.pb150 {
+  padding-bottom: 15rem;
+}
+.pb200 {
+  padding-bottom: 20rem;
+}
+
+.ml50 {
+  margin-left: 20rem;
+}
+
+.mr50 {
+  margin-right: 10rem;
+}
+
+.pl100 {
+  padding-left: 5rem;
+}
+
+.o-gutter {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+@font-face {
+  font-family: "man1";
+  src: url("./fonts/Manrope-ExtraBold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "man2";
+  src: url("./fonts/Manrope-Bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "man3";
+  src: url("./fonts/Manrope-SemiBold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "man4";
+  src: url("./fonts/Manrope-Medium.ttf") format('truetype');
+}
+@font-face {
+  font-family: "man5";
+  src: url("./fonts/Manrope-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: "man6";
+  src: url("./fonts/Manrope-Light.ttf") format('truetype');
+}
+@font-face {
+  font-family: "man7";
+  src: url("./fonts/Manrope-ExtraLight.ttf") format('truetype');
+}
+@font-face {
+  font-family: "ob";
+  src: url("./fonts/ObadiahProRegular.otf") format("opentype");
+}
