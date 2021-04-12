@@ -31,7 +31,7 @@
   $mail->MsgHTML($body);  
   $mail->SMTPAuth = true; 
   $mail->Username = "automatic.noreplay@gmail.com";
-  $mail->Password = "noreplay123"; 
+  $mail->Password = ""; 
   
   if($mail->Send()) {
     echo "Message sent!";

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ergo Bioscience.</title>
   <script src="https://kit.fontawesome.com/9639ad60e6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/slick.css">

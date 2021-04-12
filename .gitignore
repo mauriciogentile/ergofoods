@@ -1,3 +1,4 @@
 /src/public_html/ejemplos
 *.DS_Store
 /src/work
+/src/public_html/.vs

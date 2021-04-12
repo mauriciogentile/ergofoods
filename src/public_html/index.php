@@ -1,11 +1,9 @@
 <?php include 'layout/head.php'; ?>
 <?php include 'layout/header-eng.php'; ?>
-
   <main class="o-main | js-main">
-
     <section id="h-1" class="o-layout show-me | js-hero">
       <div class="c-hero" style="position: relative; overflow: hidden;">
-        <div class="growSc" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;background: url('./assets/images/home.jpg'); background-size: cover !important; background-repeat: no-repeat !important; background-position: left center !important;"></div>
+        <div class="growSc"></div>
         <div class="c-hero__container">
           <h1 class="c-hero__title pb50">
             <span class="enter-y delay-1" style="display: block;">We know how to do it,</span>
@@ -17,24 +15,30 @@
         </div>
       </div>
     </section>
-
     <section id="h-2" class="o-layout show-me | js-about" data-offset="-200">
       <div class="c-concept">
-
         <div class="c-concept__container--1">
           <h2 class="c-concept__title">
-            <span class="enter-y delay-2" style="display: block;">Introducing</span>
-            <span class="enter-y delay-3" style="display: block;">a new</span>
-            <span class="enter-y delay-4" style="display: block;">concept of</span>
-            <span class="enter-y delay-5" style="display: block;">food</span>
-            <span class="enter-y delay-6" style="display: block;">plant-based</span>
-            
+            <span class="enter-y delay-2" style="display: block;">WE COME TO</span>
+            <span class="enter-y delay-3" style="display: block;">REVOLUTIONIZE</span>
+            <small class="enter-y delay-4 small" style="display: block;">by introducing a</small>
+            <small class="enter-y delay-5 small" style="display: block;">new concept of plant-based foods</small>
           </h2>
         </div>
-
-        <div class="c-concept__container--2">
+        <div class="c-concept__container--2 innovate-img">
+        </div>
+        <div class="rueda_ergo" style="z-index: 10;">
+          <img class="rueda" src="./assets/images/rueda.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="h-2" class="o-layout show-me | js-about" data-offset="-200">
+      <div class="c-concept">
+	    <div class="c-concept__container--1 mission-img">
+        </div>
+        <div class="c-concept__container--2 o-orange">
           <p class="pb20 enter-y delay-2">
-            Ergo is an Argentinian biotech start-up, that <br>
+            ERGO Bioscience is an Argentinian biotech start-up, that <br>
             has achieved a deeper understanding of those <br>
             combinations that allow us to create and <br>
             reproduce organoleptically identical products <br>
@@ -49,20 +53,20 @@
             solutions, in conjunction with science and nature.
           </p>
         </div>
-
-        <div class="rueda_ergo" style="z-index: 10;">
-          <img class="rueda" src="./assets/images/rueda.png" alt="">
-        </div>
-
       </div>
     </section>
-
+    <section class="o-layout show-me | js-about" data-offset="-200">
+      <div class="c-concept">
+        <div class="c-concept__container--2 band-img">
+        </div>
+      </div>
+    </section>
     <section id="h-17" class="o-layout show-me" data-offset="-250">
       <div class="c-hero" style="position: relative; overflow: hidden;">
         <div class="enter-sc" style="position: absolute; top:0; left: 0; width: 100%; height: 100%;background: url('./assets/images/hero.jpg'); background-size: cover !important; background-repeat: no-repeat !important; background-position: left center !important;"></div>
         <div class="c-hero__container">
           <h1 class="c-hero__title pb50">
-            <span class="enter-y delay-1" style="display: block;">Four steps are the</span>
+            <span class="enter-y delay-1" style="display: block;">Four steps</span>
             <span class="enter-y delay-2" style="display: block;">that differentiate us</span>
           </h1>
           <div class="enter-y delay-3">
@@ -71,7 +75,6 @@
         </div>
       </div>
     </section>
-
     <section id="h-3" class="o-layout show-me pt200 | js-steps" data-offset="-200">
       <div class="paso-1">
         <!-- <div class="paso-1-title">1</div> -->
@@ -91,10 +94,8 @@
               chemical reactions prior or during cooking. The Ergo process begins <br>
               with the identification of those key proteins present in the generation <br>
               of those characteristic flavors and smell of animal foods: <strong class="gr-t">Myoglobin and Casein.</strong> <br> <br> 
-              
               <strong class="gr-t">Myoglobin</strong> is the protein that gives red coloration to beef and participates <br>
               in the formation of the flavor and smell that we associate with roast beef. <br> <br> 
-              
               <strong class="gr-t">Casein</strong> are a family of proteins present in milk and play a fundamental <br> 
               role in the texture and flavors of fermented dairy products such as cheese and yogurt. <br> 
             </p>
@@ -102,7 +103,6 @@
         </div>
       </div>
     </section>
-
     <section class="o-layout pt200">
       <div class="paso-1">
         <!-- <div class="paso-1-title">1</div> -->
@@ -135,7 +135,6 @@
         </div>
       </div>
     </section>
-
     <section id="h-33" class="o-layout show-me pt100" data-offset="-200">
       <div class="paso-1">
         <div class="paso-1-con">
@@ -151,25 +150,16 @@
           </div>
           <div class="paso-1-ww pasd3WW">
             <p class="paso-1-text enter-y delay-4">
-
-              To produce plant foods from <strong class="gr-t">myoglobin or caseins</strong>, we need to obtain them on a large scale. 
-              For this we develop a platform known as Plant Cell Suspension Culture (PCSC). This platform 
-              allows us to introduce small amounts of the cells into bioreactors and induce their reproduction 
-              under controlled conditions until we obtain industrial quantities, which later are purified under 
-              the most rigorous standards. All this, without animals, excessive water use and harmful greenhouse 
-              gas emissions.
-
+              To produce plant foods from <strong class="gr-t">myoglobin or caseins</strong>, we need to obtain them on a large scale. For this we develop a platform known as Plant Cell Suspension Culture (PCSC). This platform allows us to introduce small amounts of the cells into bioreactors and induce their reproduction under controlled conditions until we obtain industrial quantities, which later are purified under the most rigorous standards. All this, without animals, excessive water use and harmful greenhouse gas emissions.
             </p>
           </div>
         </div>
       </div>
     </section>
-
     <section id="h-6" class="o-layout show-me pt200" data-offset="-200">
       <div class="paso-1">
         <!-- <div class="paso-1-title">1</div> -->
         <div class="paso-2-m pb80">
-
           <div class="paso-2-mw to-l">
             <h4 class="mb10 enter-y delay-2">STEP FOUR</h4>
             <h2 class="mb40 enter-y delay-3">
@@ -178,42 +168,31 @@
               Plant - based foods
             </h2>
             <p class="paso-1-text enter-y delay-4">
-
               The proteins obtained in quantity, are incorporated into a mix <br>
               of other Plant - based ingredients such as soy proteins, pea <br>
               proteins, coconut oil, vegetable fibers and others .This is how <br>
               we create delicious products with an indistinguishable flavor and <br>
               extraordinarily similar to animal derivatives, without resorting <br>
               to them and of course in an ultra - sustainable way
-
             </p>
           </div>
 
           <div class="paso-2-mw enter-y delay-5">
             <img class="tss" src="./assets/images/ilus/paso4.png" alt="">
           </div>
-
         </div>
-
       </div>
     </section>
-
     <section id="h-7" class="o-layout show-me pt100 | js-team" data-offset="-200">
-
       <div class="team pb100">
-        <h2 class="team__title enter-x-r delay-1">Equipo</h2>
-
+        <h2 class="team__title enter-x-r delay-1">OUR TEAM</h2>
         <div class="team__cc mb100">
-
           <div class="team_w enter-x-r delay-2">
             <img class="mr50" src="./assets/images/team/Ale Barbarini.jpg" alt="">
           </div>
-
           <div class="team_w" style="margin-left: -10rem;">
-
             <h4 class="team_name mb10 enter-y delay-3">Alejandro Barbarini</h4>
             <p class="team_puesto mb20 enter-y delay-4">CEO</p>
-
             <p class="team_t mb50 enter-y delay-5">
               A passionate biotechnologist graduated from the Faculty of Biochemistry and <br>
               Sciences Biologics of the UNL (Argentina) in 2009. In 2010, he began his <br>
@@ -223,22 +202,15 @@
               patents. Recently distinguished by the MIT Technology Review as one of the <br>
               young innovators under 35 for Latin America.
             </p>
-
             <div class="enter-y delay-7">
               <a href="#" class="team-link">WATCH PROFILE</a>
             </div>
-
           </div>
-
         </div>
-
         <div class="team__cc rev">
-
           <div class="team_w" style="align-items: flex-start;">
-
             <h4 class="team_name mb10 enter-y delay-2">Maria Laura García</h4>
             <p class="team_puesto mb20 enter-y delay-3">SCIENTIFIC DIRECTOR</p>
-
             <p class="team_t mb50 enter-y delay-4">
               Biochemist and Doctor in Biological Sciences. She is currently a Researcher <br>
               Principal of CONICET and directs the Plant Biotechnology and Virology group<br>
@@ -251,36 +223,24 @@
               she was director of 9 doctoral theses. His technical expertise focuses on the<br>
               plant biotechnology and molecular biology.
             </p>
-
             <div class="enter-y delay-7">
               <a href="#" class="team-link">WATCH PROFILE</a>
             </div>
-
           </div>
-
           <div class="team_w enter-x delay-7" style="margin-left: -10rem;">
             <img class="ml50" src="./assets/images/team/Maria Laura Garcia.jpg" alt="">
           </div>
-
         </div>
-
-
       </div>
-
       <div class="team pb100">
         <h2 class="team__title enter-x-r delay-1">Our Team</h2>
-
         <div class="team__cc mb100">
-
           <div class="team_w enter-x-r delay-2">
             <img class="mr50" src="./assets/images/team/Eduardo Peña.jpg" alt="">
           </div>
-
           <div class="team_w" style="margin-left: -10rem;">
-
             <h4 class="team_name mb10 enter-y delay-3">Eduardo Peña</h4>
             <p class="team_puesto mb20 enter-y delay-4">CSO</p>
-
             <p class="team_t mb50 enter-y delay-5">
               Biotechnologist and Doctor in Biological Sciences, he is currently <br>
               CONICET Adjunct Researcher and member of the<br>
@@ -399,74 +359,26 @@
         </div>
 
       </div>
-
-
     </section>
-
     <section id="h-8" class="o-layout show-me" style="position: relative;" data-offset="-200">
-
-      <div class="arrow arrow-left">
-        <i class="fa arrowAll fa-arrow-left" aria-hidden="true"></i>
-      </div>
-
-      <div class="app-slide">
-
-      <div class="slide">
-          <div class="pre_c" style="overflow: hidden;">
-            <img class="slideImgSc" src="./assets/images/c-slide-3.jpg" alt="">
-          </div>
-          <h2 class="pre-t">
-            <div class="slideTitle"> 
-              <span class="spanTitle-1">Your life matters.</span>
-              <span class="spanTitle-2">Theirs, too.</span>
-            </div>
-          </h2>
-        </div>
-
         <div class="slide">
           <div class="pre_c" style="overflow: hidden;">
-            <img class="slideImgSc" src="./assets/images/c-slide-2.jpg" alt="">
           </div>
           <h2 class="pre-t">
             <div class="slideTitle">
-              <span class="spanTitle-1">There is a reason why</span>
-              <span class="spanTitle-2">we do things differently</span>
+              <span>Sustainability in the smartest way</span>
             </div>
           </h2>
         </div>
-
-        <div class="slide">
-          <div class="pre_c" style="overflow: hidden;">
-            <img class="slideImgSc" src="./assets/images/prec.jpg" alt="">
-          </div>
-          <h2 class="pre-t">
-            <div class="slideTitle">
-              <span class="spanTitle-1">Sustainability in</span>
-              <span class="spanTitle-2">the smartest way</span>
-            </div>
-          </h2>
-        </div>
-      
-      </div>
-
-      <div class="arrow arrow-right">
-        <i class="fa arrowAll fa-arrow-right" aria-hidden="true"></i>
-      </div>
-
     </section>
-
     <section id="h-20" class="pb200 show-me" data-offset="-200">
       <div class=app-layout>
-
-        <h1 class="enErgo pt80 mb80 enter-y delay-1">ERGO</h1>
-
+        <h1 class="enErgo pt80 mb80 enter-y delay-1">Promoting ecology and health are not only objectives</h1>
         <div class="app-grid mb50">
-
           <div class="app-grid-item enter-y delay-2">
             <div class="app-grid-vid">
               <video class="vid-app-g" loop muted autoplay src="./assets/images/Nube.mp4"></video>
             </div>
-            
             <div class="app-grid-info">
               <h2 class="app-grid-t">
                 Committed to 
@@ -478,7 +390,6 @@
               </p>
             </div>
           </div>
-
           <div class="app-grid-item enter-y delay-3">
             <div class="app-grid-vid">
               <video class="vid-app-g" loop muted autoplay src="./assets/images/Vaca.mp4"></video>
